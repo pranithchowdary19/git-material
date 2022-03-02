@@ -1,0 +1,44 @@
+--->for every software project two groups will work.
+1--->Developers group
+2--->operations group
+
+Developers group--->planning,coding,build,testing
+persons involved in this are business analyst,system analyst,Design architect,test engineers.
+
+Operations Group--->release,deployment,operations,monitoring.
+persons involved in this are configurations engineer,system admin,network admin,database admin,release engineers.
+
+
+GIT - Git is a distributed version control System tool.
+--->It is also known as software configuration management or souce code management.
+--> It is developed by linus torvold.
+-->working directory:- where developers create or modify the files.
+--> Any file is starts with dot(.) means Hidden directory
+--> One dot(.) means current working directory,Two dots(..) means parent directory.
+
+---> GIT Commands:-
+---> git init---->intiallize the empty local repository to working directory.
+---> git status---> It shows the current status of all files in each area,like untracked files, modified files, staged files.
+--->git status -s---->this command shows the concise output.
+--->git add---> this command is used to add the files from working directory to staging area. Once we add the files to staging area then git start tracking the files and ready to commit.---> Staging area is logical or virtual area but not physical area.
+--->git add .--->this command is used to add all files in current working directory.
+--->git add filename1 filename2---> This command is used to add particular files.
+--->git ls-files---->This command is used to list out all the  files tracked by the git.
+--->ls ----> This command is used shows the files in current working directory
+--->git commit -m---->If we want to commit the staged changes.
+--->commit message is must and should.
+--->for every commit a unique commit id will be generated.
+--->for every commit git trackes,authour name,email id, timestamp,commit message.
+--->git commit -a -m--->this command is only used for modified files. Not for newly created files.
+--->git log--->It shows history of all commits.And it provides commit id, author name and mail id, time stamp and commit message. 
+--->git checkout---> getting the files from local repository to working directory.
+--->git push--->Sending the files from local repository to remote repository.
+--->git pull--->To update the files from remote repository to local repository.
+--->git clone--->To create local repository from remote repository.(This command is used very rare situations.Eg- if any new developer joins in the teams for that developer we use clone command to create workspace)
+--->how to see a log information of a particular file?
+--->To do that git log filename is the command.
+--->Eg:- git log notes.txt
+--->git log --grep='modified'---->this is search based on given pattern in the commit message.
+--->git log --decorate---> the option displays the extra information.
+--->Branch name,head,tags,ETC.
+

@@ -1,0 +1,12 @@
+Merging ---
+Merge conflict :- If the same file modified in both parent and child branches then git stops the merge process and raise conflict message.
+
+* for this conflict, we have to edit the file manually to finalize content.
+* We have to add to staging area and then we have to perform commit.
+
+*For this process:- Git will markup both branches content in the to resolve the conflict very easily.
+
+
+** To remove the line in vim editor we ned to press D two times.
+* Eg :- DD
+
